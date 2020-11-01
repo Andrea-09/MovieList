@@ -1,9 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import List from "./containers/list";
 
 const App = () => {
-    return <h1>MovieList</h1>
-}
+  return (
+    <div>
+      <h1>Movie List</h1>
+      <List />
+    </div>
+  );
+};
 
-
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById("root"));
